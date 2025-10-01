@@ -1,4 +1,6 @@
 import numpy as np
+import pandas as pd
+import os
 import sys
 
 a=np.array([1, 2, 3])
@@ -92,3 +94,12 @@ print (z)
 output[1:-1,1:-1]=z
 print (output)
 
+
+print(os.getcwd())
+
+
+ 
+#df = np.loadtxt("data.csv", delimiter=",", skiprows=1)   
+#print(df)
+#print(df.shape)
+ 
